@@ -1,0 +1,47 @@
+# Agenda Program
+
+This program allows you to manage a simple agenda using a linked list. You can add events, delete events, save the agenda to a file, load the agenda from a file, display the agenda, and free the agenda.
+
+## Getting Started
+
+Follow these instructions to compile and run the agenda program.
+
+### Prerequisites
+
+- Ensure you have a C compiler installed on your system. If not, you can install one based on your operating system.
+
+### Compilation
+
+Open a terminal and navigate to the directory containing the agenda source code.
+
+```bash
+make
+```
+
+### Running the Program
+
+After successful compilation, run the executable:
+
+```bash
+./main
+```
+
+## Usage
+
+The program provides a menu with the following options:
+
+1. Add an event
+2. Delete an event
+3. Save agenda
+4. Load agenda
+5. Display agenda
+6. Free agenda (delete all events)
+7. Quit
+
+Choose the desired option by entering the corresponding number. Follow the on-screen instructions for each option.
+
+## Notes
+
+- Make sure to enter valid data when adding or deleting events.
+- File names for saving or loading the agenda should be valid.
+
